@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>684</width>
+                <height>535</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">background-color: rgb(104, 38, 38);</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout">
+                <item>
+                    <widget class="QPushButton" name="addUser">
+                        <property name="styleSheet">
+                            <string notr="true">color: rgb(255, 255, 255);
+font: 16pt "MS Shell Dlg 2";</string>
+                        </property>
+                        <property name="text">
+                            <string>Add User</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="addFlight">
+                        <property name="styleSheet">
+                            <string notr="true">color: rgb(255, 255, 255);
+font: 16pt "MS Shell Dlg 2";</string>
+                        </property>
+                        <property name="text">
+                            <string>Add Flight</string>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPushButton" name="graph_bt">
+                        <property name="styleSheet">
+                            <string notr="true">color: rgb(255, 255, 255);
+font: 16pt "MS Shell Dlg 2";</string>
+                        </property>
+                        <property name="text">
+                            <string>Show Charts</string>
+                        </property>
+                    </widget>
+                </item>
+                <!-- Add other buttons and widgets here -->
+            </layout>
+            <layout class="QHBoxLayout">
+                <item>
+                    <widget class="QLabel" name="label">
+                        <property name="styleSheet">
+                            <string notr="true"/>
+                        </property>
+                        <property name="text">
+                            <string/>
+                        </property>
+                        <property name="pixmap">
+                            <pixmap>C:/Users/Speed/Pictures/123.jpg</pixmap>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <widget class="QPlainTextEdit" name="plainTextEdit">
+                        <property name="styleSheet">
+                            <string notr="true">font: 75 22pt "MS Shell Dlg 2";
+color:rgb(255, 255, 255);
+border-color: rgb(104, 38, 38)</string>
+                        </property>
+                        <property name="plainText">
+                            <string>Welcome to Admin Menu</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>684</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources>
+        <include location="admin.qrc"/>
+    </resources>
+    <connections/>
+</ui>

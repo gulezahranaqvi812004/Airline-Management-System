@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>C:/Users/Speed/Pictures/123.jpg</file>
+    <file>C:/Users/Speed/Pictures/admin-login-icon-26.jpg</file>
+  </qresource>
+</RCC>
